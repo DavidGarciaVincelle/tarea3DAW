@@ -1,0 +1,4 @@
+FROM php:7.4-apache
+MAINTAINER davidvincelle "david@vincelle.es"
+ADD miweb /var/www/html/
+EXPOSE 80
